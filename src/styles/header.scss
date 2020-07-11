@@ -30,6 +30,7 @@
   text-transform: uppercase;
   height: 60px;
   color: $main-text-color;
+  transition: color 1s, height 1s;
 }
 
 .nav__item:hover {
