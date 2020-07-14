@@ -9,12 +9,22 @@
   height: $product-card-height;
   border: 1px solid #f3f3f3;
   border-radius: 5px;
-  padding: 30px 15px 15px;
+  padding: 15px;
   margin-bottom: 50px;
 
   &__img {
     width: 160px;
     height: 134px;
+    padding: 15px 0;
+    box-sizing: content-box;
+    transition: transform 1s;
+    border: 3px solid transparent;
+    border-radius: 5px;
+  }
+
+  &__img:hover {
+    transform: scale(1.2);
+    border-color: #f3f3f3;
   }
 
   &__title {
@@ -63,6 +73,7 @@
     border-radius: 5px;
     font-family: inherit;
     cursor: pointer;
+    transition: color 0.5s, background-color 0.5s;
   }
   
   &__buy-button:hover {
