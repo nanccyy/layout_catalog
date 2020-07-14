@@ -18,12 +18,13 @@
     padding: 15px 0;
     box-sizing: content-box;
     transition: transform 1s;
+    border: 3px solid transparent;
+    border-radius: 5px;
   }
 
   &__img:hover {
     transform: scale(1.2);
-    border: 3px solid #f3f3f3;
-    border-radius: 5px;
+    border-color: #f3f3f3;
   }
 
   &__title {
